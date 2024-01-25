@@ -195,9 +195,15 @@ font-size: 30px;}
   
 
 }
+.barcelonaymadrid{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+}
 h2{
-  
- display: flex;
+  display: flex;
  text-align: center;
  flex-direction: column;
   font-family: monospace;
@@ -219,25 +225,27 @@ h2{
 
 .viajesoferta{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-family: monospace;
   text-transform: uppercase;
   text-align: center;
 }
+
 .barcelona,.madrid{
   border-radius: 10px;
   width: 40%;
   background-color: #00171f;
   color: #e9eff1;
- padding: 20px 0px;
   display: flex;
-  flex-direction: column;
-  justify-content: center ;
-  align-items: center;
+  font-family: monospace;
+  text-transform: uppercase;
+  flex-wrap: wrap;
 }
 
 .barcelona img,.madrid img{
   width: 80%;
   border-radius: 8px; 
+  
 }
 
 .ofertas{

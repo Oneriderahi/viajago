@@ -177,8 +177,7 @@ align-items: center;
   display: flex;
   justify-content: space-between;
   font-family: monospace;
-  text-transform: uppercase;
-  text-align: center;
+   text-align: center;
 }
 .flash{
  font-family: monospace;
@@ -239,6 +238,7 @@ h2{
   display: flex;
   font-family: monospace;
   text-transform: uppercase;
+
   flex-wrap: wrap;
 }
 
@@ -452,6 +452,7 @@ button:hover {
     align-items: center;
   }
   
+  
   .imagenlogo{
     display: flex;
     width: 310px;
@@ -462,8 +463,29 @@ button:hover {
     font-size: 20px;
   }
   .presentacion img{
-    width: 60px;
+    width: 40px;
   }
+  .flash{
+    font-family: monospace;
+     justify-items: baseline;
+   font-size: 15px;}
+   .check{
+      font-family: monospace;
+     font-size: 15px
+   }
+   .cocheinfor1{
+    font-family: monospace;
+     font-size: 15px;
+     
+   
+   }
+.p1{
+  width: auto;
+  font-size: 25px;
+ text-align: start;
+ margin-right: 10px;
+ margin-left: 10px;
+}
 .tituloprincipal{
   margin: 0;
   padding:10px 0px;

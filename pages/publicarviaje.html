@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ViajaGo</title>
     <link rel="shortcut icon" href="../IMAGEN/viajagologo.png" type="image/x-icon">
-    <link rel="stylesheet" href="../csss/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../csss/index.css">
+
     
     
 
 </head>
 <body class="contenedor">
-    <header>
-        <a class="whatsaap" href="../pages/contacto.html"> <img src="../imagen locos/whatsap imagen.png" alt="" width="75px" height="75px"></a>
-        <img class="imagenlogo" src="../IMAGEN/viajagologo.png" alt="">
+<header>
+
+    <li class="imagenlogo"> <a href="../index.html"> <img src="../IMAGEN/viajagologo.png" alt="logo"></a></li>
 
 
-<nav>
+    <nav>
             <ul>
                <li class="navbar"><a href="../pages/Registrarse.html">Registrarse</a></li>
                <li class="navbar"><a href="../pages/buscar.html">Buscar</a></li>
                <li class="navbar"><a href="../pages/publicarviaje.html">Publicar Un Viaje</a></li>
-               <li class="navbar"><a href="../pages/contacto.html">Contacto</a></li>
+               <li class="navbar"><a href="../pages/destinos.html">Destinos</a></li>
                <li class="navbar"><a href="../index.html">Inicio</a></li>
 
             </ul>
             
         
-        </nav>
+    </nav>
         
-    </header>
+</header>
+
+<a class="whatsaap" href="./pages/contacto.html"> <img class="whatsapp1" src="../imagen locos/whatsapimagen.png" alt="whatsapp" ></a>
     
- <div class="tituloprincipal"><h1>Viaja y ahorra, solo con nosotros</h1>
- </div>
+    
+<div class="tituloprincipal animate__animated animate__flipInX"><h1>Viaja y ahorra, solo con nosotros</h1>
+</div>
 <h2>Descubre cuánto ahorras en un viaje con Viaja Go</h2>
- <main class="contenedor2">
+ 
+<main class="contenedor2">
     
     <section class="infor1">
         <img src="../IMAGEN/barcelona.webp" alt="barcelona">
@@ -68,8 +74,10 @@
                 <label for="destino">Destino:</label>
                 <input type="text" id="destino" name="destino" required>
             
-                <label for="pasajero">cuantos son:</label>
-                <button type="button" class="botonpasajero" title="¿Cuántos asientos?"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="kirk-icon" role="img" aria-hidden="true" style="height: 18px; width: 18px; fill: var(--_1gzv7bhc);"><g color="var(--_1gzv7bhc)"><path fill="currentColor" fill-rule="evenodd" d="M15.3348 7.41667c0 2.07071-1.6793 3.75003-3.75 3.75003-2.07072 0-3.75-1.67932-3.75-3.75003v-.83334c0-2.07071 1.67928-3.75 3.75-3.75 2.0707 0 3.75 1.67929 3.75 3.75v.83334Zm-8.33334 0C7.00146 9.94762 9.05385 12 11.5848 12c2.5309 0 4.5833-2.05238 4.5833-4.58333v-.83334C16.1681 4.05238 14.1157 2 11.5848 2 9.05385 2 7.00146 4.05238 7.00146 6.58333v.83334ZM20.3335 20.75v-1.7433c0-1.6904-1.1257-3.1725-2.7522-3.6154-2.0325-.5548-4.0791-.8913-5.9978-.8913-1.91873 0-3.96534.3365-5.99806.8914-1.6263.4428-2.75194 1.9249-2.75194 3.6153V20.75c0 .2301.18654.4167.41666.4167H19.9168c.2301 0 .4167-.1866.4167-.4167Zm-2.9714-4.5547c1.2631.344 2.1381 1.4959 2.1381 2.8114v1.3266H3.66683v-1.3266c0-1.3155.87493-2.4674 2.13781-2.8113 1.9672-.537 3.9441-.8621 5.77886-.8621 1.8347 0 3.8117.3251 5.7786.862Z" clip-rule="evenodd"></path></g></svg><span class="sc-8c6da2f4-0 sc-fc15259-0 izgkiJ JbHxc kirk-search-ellipsis">1 Pasajero</span></button>
+                <label for="cantidadPasajeros">Cantidad de Pasajeros:</label>
+                <input type="number" id="cantidadPasajeros" name="cantidadPasajeros" min="1" value="1">
+  
+  
             
                 <button type="button" onclick="publicarViaje()">Publicar Viaje</button>
               </form>
@@ -82,11 +90,8 @@
     </section>
 
  </main>
-    
-    
-</body>
-
-<footer>
+ 
+ <footer>
     
     <p>&copy; 2024 Viaja Go | <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a></p>
 
@@ -97,17 +102,28 @@
         <div class="social-buttons">
             <ul>
 
-           <a href="https://www.facebook.com/blablacar.es"> <img src="../imagen locos/fb.png" alt=""  ></a>
-            <a href="https://twitter.com/blablacar_es"> <img src="../imagen locos/twitter.png" alt=""  ></a>
-            <a href="https://www.instagram.com/blablacar_es/"> <img src="../imagen locos/instagram.png" alt=""  ></a> 
+           <a href="https://www.facebook.com/blablacar.es"> <img src="../imagen locos/fb.png" alt="facebook"  ></a>
+            <a href="https://twitter.com/blablacar_es"> <img src="../imagen locos/twitter.png" alt="twitter"  ></a>
+            <a href="https://www.instagram.com/blablacar_es/"> <img src="../imagen locos/instagram.png" alt="instagram"  ></a> 
             
-        </ul>
+            </ul>
         </div>
-      </div>
+    </div>
     
       <script src="script.js"></script>
+      <script>
+        function obtenerCantidadPasajeros() {
+          var cantidadPasajeros = document.getElementById('cantidadPasajeros').value;
+          alert('Cantidad de pasajeros: ' + cantidadPasajeros);
+         
+        }
+      </script>
     
 
 </p>
 </footer>
+    
+</body>
+
+
 </html>

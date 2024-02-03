@@ -26,13 +26,15 @@ top: 0px;
 
  }
 
-
+.imagenlogo{
+  list-style: none;
+}
 
 
  body {
         margin: 0;
         padding: 0;
-        background-color: #00a8e8;
+        background-image: linear-gradient(to top, #2863ad, #007bb7, #008fb6, #00a1ad, #40b1a1);
         background-size: cover;
         background-position: center;
         font-family: Arial, sans-serif;
@@ -52,7 +54,7 @@ font-family: monospace;
 .tituloprincipal{
   margin: 0;
   padding:200px 0px;
-  background-image: url(../IMAGEN/istockphoto-1306860926-612x612.jpg);
+  background-image: url(../IMAGEN/istock.jpg);
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
@@ -258,6 +260,7 @@ h2{
 }
 
 footer{
+  
   background-color: #e9eff1;
   display: flex;
   align-items: flex-end;
@@ -393,12 +396,15 @@ button:hover {
 }
 
 .infor5{
+  margin: 30px;
   grid-area: infor5;
   justify-content: center;
   align-content: center;
   
+
   
 }
+
 .infor1 img,.infor2 img,.infor3 img,.infor4 img,.infor6 img{
   width: 100%;
   border-radius: 5px; 
@@ -533,4 +539,70 @@ button:hover {
   }
   
   
+}
+
+.contenedorbuscar{
+
+  background-color: #a1d3ec;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(2x100px) ;
+  grid-template-areas: 
+  "bv bv bs bs"
+  "bb bb bg bg" ;
+}
+
+
+.buscarvalencia{
+  grid-area: bv;
+ }
+
+.buscarbarcelona{
+  grid-area: bb;
+
+}
+.buscargranada{
+  grid-area: bg;
+
+}
+.buscarsevilla{
+  grid-area: bs;
+
+}
+.buscargranada img{
+    width: 100%;
+  height: 100%;
+}
+
+.buscarbarcelona img{
+  width: 100%;
+  height: 100%;
+}
+
+.buscarsevilla img{
+  width: 100%;
+  height: 100%;
+}
+
+.buscarvalencia img{
+  width: 100%;
+  height: 100%;
+}
+
+.tarjetas1{
+  gap: 300px;
+  display: flex;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  justify-content: center;
+  
+}
+
+.tarjetas2{
+  gap: 300px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ justify-content:space-around;
 }

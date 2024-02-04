@@ -1,0 +1,90 @@
+@media only screen and (max-width: 480px) {
+    header{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      width: auto;
+     
+    }
+    .viajayahorra{
+     font-size: larger;
+    }
+    ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  
+    .presentacion{
+      display: flex;
+      flex-direction: column;
+      font-size: 20px;
+    }
+    .presentacion img{
+      width: 40px;
+    }
+    .flash{
+      font-family: monospace;
+       justify-items: baseline;
+     font-size: 15px;}
+     .check{
+        font-family: monospace;
+       font-size: 15px
+     }
+     .cocheinfor1{
+      font-family: monospace;
+       font-size: 15px;
+       
+     
+     }
+  .p1{
+    width: auto;
+    font-size: 25px;
+   text-align: start;
+   margin-right: 10px;
+   margin-left: 10px;
+  }
+  .formulario2{
+    display: flex;
+    flex-direction: column;
+  }
+  .precaucion1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+  }
+  .formulario3{
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor2{
+    gap: 10px;
+   background-color: #a1d3ec;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px repeat(13, 100px);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    "infor1"
+    "infor1"
+    "infor2"
+    "infor2"
+    "infor5"
+    "infor5"
+    "infor5"
+    "infor5"
+    "infor5"
+    "infor5"
+    "infor4"
+    "infor3"
+    "infor6"
+    "infor6"
+  
+    }
+    
+    
+  }

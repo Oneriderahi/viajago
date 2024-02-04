@@ -1,0 +1,427 @@
+@charset "UTF-8";
+/*estilos generales*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #e9eff1; /* Degradado de azul a amarillo */
+  top: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to top, #2863ad, #007bb7, #008fb6, #00a1ad, #40b1a1);
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-shadow: 4px 4px 2px rgba(37, 122, 151, 0.6);
+  font-family: monospace;
+  font-size: 450%;
+  text-align: center;
+  color: #00171f;
+  padding: 100px;
+}
+
+h2 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.whatsaap {
+  position: fixed;
+  bottom: 1px;
+  right: 20px;
+}
+.whatsaap .whatsapp1 {
+  height: 150px;
+  width: 150px;
+}
+
+/*header*/
+header .imagenlogo {
+  list-style: none;
+}
+header .navbar {
+  justify-content: center;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0 100px;
+}
+
+/*footer*/
+footer {
+  background-color: #e9eff1;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+footer img {
+  display: flex;
+  width: 10%;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.tituloprincipal {
+  position: relative;
+}
+
+.tituloprincipal img {
+  width: 100%;
+}
+
+.viajayahorra {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000; /* Color del texto */
+  font-size: 50px; /* Tamaño de fuente del texto */
+  padding: 10px; /* Espaciado interno del texto */
+}
+
+.formulario2 {
+  box-shadow: -4px 11px 94px 44px rgba(57, 223, 209, 0.94) inset;
+  text-transform: uppercase;
+  font-family: monospace;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.formulario2 button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%; /* Ocupa todo el ancho del contenedor */
+}
+
+.imagenesflex {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  text-align: center;
+}
+.imagenesflex .flash {
+  font-family: monospace;
+  font-size: 5px;
+  justify-items: baseline;
+  font-size: 30px;
+}
+.imagenesflex .check {
+  font-family: monospace;
+  font-size: 30px;
+}
+.imagenesflex .cocheinfor1 {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.viajesoferta {
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.barcelonaymadrid {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+}
+.barcelonaymadrid .barcelona, .barcelonaymadrid .madrid {
+  border-radius: 10px;
+  width: 40%;
+  background-color: #00171f;
+  color: #e9eff1;
+  display: flex;
+  font-family: monospace;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+.barcelonaymadrid .barcelona img, .barcelonaymadrid .madrid img {
+  width: 80%;
+  border-radius: 8px;
+}
+
+.precaucion1 {
+  overflow: hidden;
+}
+.precaucion1 .precaucion1 img {
+  align-items: center;
+  float: left;
+  width: 50%;
+}
+.precaucion1 .ayudanos {
+  font-size: 30px;
+  float: right;
+  width: 50%;
+  font-family: monospace;
+}
+
+.formulario3 {
+  box-shadow: -4px 11px 94px 44px rgba(57, 223, 209, 0.94) inset;
+  text-transform: uppercase;
+  font-family: monospace;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.formulario3 button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%; /* Ocupa todo el ancho del contenedor */
+}
+
+.contenedorbuscar {
+  background-color: #a1d3ec;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(2x100px);
+  grid-template-areas: "bv bv bs bs" "bb bb bg bg";
+}
+.contenedorbuscar .buscarvalencia {
+  grid-area: bv;
+}
+.contenedorbuscar .buscarbarcelona {
+  grid-area: bb;
+}
+.contenedorbuscar .buscargranada {
+  grid-area: bg;
+}
+.contenedorbuscar .buscarsevilla {
+  grid-area: bs;
+}
+.contenedorbuscar .buscargranada img {
+  width: 100%;
+  height: 100%;
+}
+.contenedorbuscar .buscarbarcelona img {
+  width: 100%;
+  height: 100%;
+}
+.contenedorbuscar .buscarsevilla img {
+  width: 100%;
+  height: 100%;
+}
+.contenedorbuscar .buscarvalencia img {
+  width: 100%;
+  height: 100%;
+}
+
+.tarjetas1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.contenedor2 {
+  background-color: #a1d3ec;
+  margin-top: 50px;
+  margin-bottom: 3px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1.5fr;
+  grid-template-rows: 200px repeat(2, 250px) 150px;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: "infor1 infor5 infor3" "infor1 infor5 infor3" "infor2 infor6 infor4" "infor2 infor6 infor4";
+}
+.contenedor2 .infor1 {
+  grid-area: infor1;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor2 .infor2 {
+  grid-area: infor2;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor2 .infor3 {
+  grid-area: infor3;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor2 .infor4 {
+  grid-area: infor4;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor2 .infor5 {
+  margin: 30px;
+  grid-area: infor5;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor2 .infor1 img, .contenedor2 .infor2 img, .contenedor2 .infor3 img, .contenedor2 .infor4 img, .contenedor2 .infor6 img {
+  width: 100%;
+  border-radius: 5px;
+}
+.contenedor2 .formularioviaje {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor2 .infor6 {
+  grid-area: infor6;
+  justify-content: center;
+  align-content: center;
+}
+.contenedor2 form {
+  box-shadow: -4px 11px 94px 44px rgba(57, 223, 209, 0.94) inset;
+  text-transform: uppercase;
+  font-family: monospace;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.contenedor2 label {
+  display: block;
+  margin-bottom: 8px;
+}
+.contenedor2 input, .contenedor2 select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+.contenedor2 button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+}
+.contenedor2 button:hover {
+  background-color: #2980b9;
+}
+.contenedor2 .botonpasajero {
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .viajayahorra {
+    font-size: larger;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .presentacion {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  .presentacion img {
+    width: 40px;
+  }
+  .flash {
+    font-family: monospace;
+    justify-items: baseline;
+    font-size: 15px;
+  }
+  .check {
+    font-family: monospace;
+    font-size: 15px;
+  }
+  .cocheinfor1 {
+    font-family: monospace;
+    font-size: 15px;
+  }
+  .p1 {
+    width: auto;
+    font-size: 25px;
+    text-align: start;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .formulario2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .precaucion1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formulario3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor2 {
+    gap: 10px;
+    background-color: #a1d3ec;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px repeat(13, 100px);
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "infor1" "infor1" "infor2" "infor2" "infor5" "infor5" "infor5" "infor5" "infor5" "infor5" "infor4" "infor3" "infor6" "infor6";
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

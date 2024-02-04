@@ -1,0 +1,112 @@
+.contenedor2{
+    background-color: #a1d3ec;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    grid-template-rows: 200px repeat(2, 250px) 150px;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: 
+    "infor1 infor5 infor3"
+    "infor1 infor5 infor3"
+    "infor2 infor6 infor4"
+    "infor2 infor6 infor4" ;
+
+    .infor1{
+        grid-area: infor1;
+        justify-content: center;
+        align-content: center;
+      }
+      .infor2{
+        grid-area: infor2;
+        justify-content: center;
+        align-content: center;
+      
+      }
+      
+      .infor3{
+        grid-area: infor3;
+        justify-content: center;
+        align-content: center;
+      
+      }
+      
+      .infor4{
+        grid-area: infor4;
+        justify-content: center;
+        align-content: center;
+      
+      }
+      
+      .infor5{
+        margin: 30px;
+        grid-area: infor5;
+        justify-content: center;
+        align-content: center;
+          
+      }
+      
+      .infor1 img,.infor2 img,.infor3 img,.infor4 img,.infor6 img{
+        width: 100%;
+        border-radius: 5px; 
+      }
+      
+      .formularioviaje{
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .infor6{
+        grid-area: infor6;
+        justify-content: center;
+        align-content: center;
+      }
+      form {
+        box-shadow: -4px 11px 94px 44px rgba(57, 223, 209, 0.94) inset;
+        text-transform: uppercase;
+        font-family: monospace;
+        display: flex;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 30px;
+       
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+      
+      input, select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+      }
+      
+      button {
+        background-color: #3498db;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+      }
+      
+      button:hover {
+        background-color: #2980b9;
+      }
+      .botonpasajero{
+        
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+        margin-bottom: 16px;
+      }
+  }

@@ -1,0 +1,21 @@
+$font:Arial, sans-serif;
+$font1: monospace;
+
+
+$azul:#2863ad;
+$azulclaro:#007bb7; 
+$azulagua:#008fb6;
+$turquesa:#00a1ad;
+$turquesaclaro:#40b1a1; 
+$blancoclaro:#e9eff1;
+$negro: #000;
+$blanco: #ffffff;
+
+//mixin
+
+@mixin flex ($direccion, $justify, $align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $align;
+}

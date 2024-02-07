@@ -57,12 +57,12 @@ ul {
 
 .whatsaap {
   position: fixed;
-  bottom: 1px;
-  right: 20px;
+  bottom: 0px;
+  right: 15px;
 }
 .whatsaap .whatsapp1 {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 /*header*/
@@ -184,19 +184,14 @@ footer img {
   border-radius: 8px;
 }
 
-.precaucion1 {
-  overflow: hidden;
-}
-.precaucion1 .precaucion1 img {
-  align-items: center;
-  float: left;
-  width: 50%;
-}
-.precaucion1 .ayudanos {
+.ayudanos {
   font-size: 30px;
-  float: right;
-  width: 50%;
   font-family: monospace;
+}
+
+.agente {
+  display: flex;
+  justify-content: center;
 }
 
 .formulario3 {
@@ -257,9 +252,15 @@ footer img {
   height: 100%;
 }
 
-.tarjetas1 {
+.tarjetas1, .tarjetas2 {
   margin-top: 20px;
   margin-bottom: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+.tarjetas2 {
+  margin-top: 20px;
 }
 
 .contenedor2 {
@@ -352,6 +353,11 @@ footer img {
   cursor: pointer;
   width: 100%; /* Ocupa todo el ancho del contenedor */
   margin-bottom: 16px;
+}
+
+.formregistro {
+  width: 90%;
+  margin: auto;
 }
 
 @media only screen and (max-width: 480px) {

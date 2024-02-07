@@ -105,28 +105,21 @@
   }
 
   
-  .precaucion1{
-    overflow: hidden; 
-    
-    
-    .precaucion1 img {
-    
-      align-items: center;
-        float: left; 
-        width: 50%; 
-        
-      }
-      .ayudanos{
-        font-size: 30px;
-          float: right; 
-          width: 50%; 
-          font-family: $font1;
+  
+     .ayudanos{
+       font-size: 30px;
+      font-family: $font1;
           
         }
         
+  .agente{
+    display: flex;
+    justify-content: center;
+    
   }
 
-
+  
+  
   
  
   

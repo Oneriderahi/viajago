@@ -11,7 +11,25 @@ nav{
     display: flex;
     justify-content: end;
     align-items: center;
+    
+    .navbar li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    .navbar a {
+      text-decoration: none;
+      color: #1d1b1b;
+      font-weight: bold;
+      font-size: 20px;
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: #00bcd4;
+    }
+    
      }
+  }
+     
 header {
         
     justify-content: space-between;

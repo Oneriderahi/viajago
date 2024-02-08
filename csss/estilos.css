@@ -420,6 +420,8 @@ footer img {
   .formulario2 {
     display: flex;
     flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .precaucion1 {
     display: flex;
@@ -434,13 +436,15 @@ footer img {
     gap: 10px;
     background-color: #a1d3ec;
     margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 3px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 200px repeat(13, 100px);
     align-items: center;
     justify-items: center;
-    grid-template-areas: "infor1" "infor1" "infor2" "infor2" "infor5" "infor5" "infor5" "infor5" "infor5" "infor5" "infor4" "infor3" "infor6" "infor6";
+    grid-template-areas: "infor5" "infor5" "infor5" "infor5" "infor2" "infor2" "infor3" "infor3" "infor4" "infor4" "infor1" "infor1" "infor6" "infor6";
   }
 }
 

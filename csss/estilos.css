@@ -14,6 +14,7 @@ nav {
 nav .navbar li {
   display: inline;
   margin-right: 20px;
+  justify-content: space-between;
 }
 nav .navbar a {
   text-decoration: none;
@@ -390,8 +391,11 @@ footer img {
     width: auto;
   }
   .imagenlogo {
-    width: 80%;
+    width: 70%;
     vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .viajayahorra {
     font-size: larger;

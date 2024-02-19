@@ -8,8 +8,8 @@
     }
 nav{ 
     text-align: right ;
-    display: flex;
-    justify-content: end;
+    display: inline;
+    justify-content: space-between;
     align-items: center;
     
     .navbar li {
@@ -28,6 +28,9 @@ nav{
     }
     
      }
+  }
+  .navegacion{
+    display: flex;
   }
      
 header {
@@ -78,6 +81,7 @@ body {
       }
 
       .whatsaap{
+        z-index: 10;
         position: fixed;
         bottom: 0px ;
         right: 15px;

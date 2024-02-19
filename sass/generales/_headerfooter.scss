@@ -6,8 +6,9 @@ header{
       }
     .navbar{
   
-        justify-content: center;
-        display: inline-block;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
         font-family: $font1;
         font-size: 20px;
         margin:0 100px;

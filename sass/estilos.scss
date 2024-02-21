@@ -33,7 +33,10 @@ nav{
   .navegacion{
     display: flex;
   }
-     
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
 header {
         
     justify-content: space-between;
